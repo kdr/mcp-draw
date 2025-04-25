@@ -22,7 +22,7 @@ First, get an OpenAI API key from [OpenAI's platform](https://platform.openai.co
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/mcp-draw.git
+git clone https://github.com/kdr/mcp-draw.git
 cd mcp-draw
 ```
 
