@@ -1,0 +1,40 @@
+{
+  "name": "mcp-draw",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": {
+    "mcp-draw": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && shx chmod +x build/*.js",
+    "watch": "tsc --watch",
+    "prepare": "npm run build",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "image generation",
+    "modelcontextprotocol",
+    "mcp"
+  ],
+  "author": "Kevin Dela Rosa",
+  "license": "None",
+  "description": "MCP server for generating images from a prompt",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "@types/uuid": "^10.0.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.96.0",
+    "shx": "^0.4.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}
