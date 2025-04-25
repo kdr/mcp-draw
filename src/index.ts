@@ -43,7 +43,7 @@ export const schema = {
 
 server.tool(
   "generate_image_from_description",
-  "Generates an image from a description of what the image should look like, saves to local file hose path is returned",
+  "Generates an image from a description of what the image should look like, saves to local file whose path is returned",
   schema,
   async ({ description }) => {
     const result = await openai.images.generate({
