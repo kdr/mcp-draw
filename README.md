@@ -1,6 +1,6 @@
 # MCP Draw
 
-An MCP (Model Context Protocol) server for generating images from text prompts. This server allows AI assistants to create images through a standardized interface.
+An MCP (Model Context Protocol) server for generating images from text prompts. This server allows AI assistants to create images / draw through a standardized interface.
 
 ## 📖 Resources
 
@@ -18,6 +18,31 @@ An MCP (Model Context Protocol) server for generating images from text prompts. 
 
 First, get an OpenAI API key from [OpenAI's platform](https://platform.openai.com/api-keys). This will be used to authenticate the MCP server with OpenAI's services.
 
+### 2. Configure MCP Client for Local Development
+
+```json
+{
+  "mcpServers": {
+    "mcp-draw": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-draw@latest"
+        "--api-key",
+        "<REPLACE-WITH-YOUR-OPENAI-API-KEY>",
+        "--output-dir",
+        "/ABSOLUTE/PATH/TO/SAVE/OUTPUT_FOLDER"
+      ]
+    }
+  }
+}
+```
+
+## Local Development Setup
+
+### 1. API Key
+
+First, get an OpenAI API key from [OpenAI's platform](https://platform.openai.com/api-keys). This will be used to authenticate the MCP server with OpenAI's services.
 
 ### 2. Clone the Repository
 
@@ -43,7 +68,7 @@ npm run build
       "args": [
         "/ABSOLUTE/PATH/TO/mcp-draw/build/index.js",
         "--api-key",
-        "<your-open-ai-api-key>",
+        "<REPLACE-WITH-YOUR-OPENAI-API-KEY>",
         "--output-dir",
         "/ABSOLUTE/PATH/TO/SAVE/OUTPUT_FOLDER"
       ]

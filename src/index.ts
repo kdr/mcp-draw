@@ -82,7 +82,7 @@ server.tool(
       content: [
         {
           type: "text",
-          text: "Unable to create comic",
+          text: "Unable to create image",
         },
       ],
     };
@@ -93,7 +93,7 @@ server.tool(
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("Text in LLM running on stdio");
+  console.error("MCP Draw running on stdio");
 }
 
 main().catch((error) => {
