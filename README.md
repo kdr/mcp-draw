@@ -27,7 +27,7 @@ First, get an OpenAI API key from [OpenAI's platform](https://platform.openai.co
       "command": "npx",
       "args": [
         "-y",
-        "mcp-draw"
+        "mcp-draw@latest"
         "--api-key",
         "<REPLACE-WITH-YOUR-OPENAI-API-KEY>",
         "--output-dir",
