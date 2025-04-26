@@ -1,7 +1,7 @@
 {
   "name": "mcp-draw",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "bin": {
     "mcp-draw": "build/index.js"
