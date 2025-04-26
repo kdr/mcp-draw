@@ -1,6 +1,6 @@
 # MCP Draw
 
-An MCP (Model Context Protocol) server for generating images from text prompts. This server allows AI assistants to create images through a standardized interface.
+An MCP (Model Context Protocol) server for generating images from text prompts. This server allows AI assistants to create images / draw through a standardized interface.
 
 ## 📖 Resources
 
