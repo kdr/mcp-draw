@@ -2,6 +2,9 @@
 
 An MCP (Model Context Protocol) server for generating images from text prompts. This server allows AI assistants to create images / draw through a standardized interface.
 
+<img width="1463" alt="image" src="https://github.com/user-attachments/assets/afbef817-91ab-4b31-a2bf-73cb0d0b6758" />
+
+
 ## 📖 Resources
 
 - [Model Context Protocol](https://modelcontextprotocol.io/introduction)
